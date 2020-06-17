@@ -133,7 +133,7 @@ export default function Resume() {
                     St. Paul Higher Secondry School
                 </Typography>
                 <Typography variant="subtitle1" align="center" style={{color:"tomato", fontStyle:"italic"}}>
-                  Accomplished my schooling from prestigious school in my city which gave me directions to work for my future and nurtured me to be determined and hard worker.
+                  Accomplished my schooling from prestigious school in my city which gave me directions to work for my future and nurtured me to be determined and hard worker. I started developing and practicing interest toward the coding after 10th standard.
                 </Typography>
             </Box>
             <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -141,7 +141,7 @@ export default function Resume() {
             </Typography>
             <Box component="div" className={classes.timeLineItem}>
                 <Typography variant="h5" align="center" className={classes.subHeading}>
-                    Bachelor of Science(Information Technology)
+                    Bachelors of Science(Information Technology)
                 </Typography>
                 <Typography variant="body1" align="center" style={{color:"tomato",fontWeight:"bold"}}>
                     Medicaps Institute of Science and Technology
@@ -175,7 +175,7 @@ export default function Resume() {
                     Engineers2 Software Solutions
                 </Typography>
                 <Typography variant="subtitle1" align="center" style={{color:"tomato", fontStyle:"italic"}}>
-                  Doing the internship as software developer helped me learn a lot about SDLC and agile development. This opportunity gave me opportunity to be a better team player with working in team and understanding my role to contribute towards team goals. 
+                  Doing the internship here as software developer helped me learn a lot about SDLC and agile development in Java. It also gave me an opportunity to be a better team worker and understanding my role to contribute towards team goals. I worked here in doing a project for a online quiz system in Java for schools. 
                 </Typography>
             </Box>
             <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -189,7 +189,7 @@ export default function Resume() {
                     University of Florida
                 </Typography>
                 <Typography variant="subtitle1" align="center" style={{color:"tomato", fontStyle:"italic"}}>
-                  One of the incredible milestone to my journey is doing Masters. To broaden up the concepts and take my knowledge to the advance level Masters contributed to be really crucial. Various projects I worked here including distrbuted systems, Human-Computer interaction, Advance Data Structures help me to improve my development and analytical skills. 
+                  One of the incredible milestone into my journey is doing Masters. To broaden up the concepts and take my knowledge to the advance level doing Masters proved to be essential. Several projects I worked in domains like distributed systems, Human-Computer interaction, Advance Data Structures helped me to improve my development and analytical skills. 
                 </Typography>
             </Box>
             <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -203,7 +203,7 @@ export default function Resume() {
                     Livestock City inc. (Virginia, US)
                 </Typography>
                 <Typography variant="subtitle1" align="center" style={{color:"tomato", fontStyle:"italic"}}>
-                  Working as a Masters Student at such a growing company with awesome people really gave me exposure to enhance myself. I worked on Android development here contributing to an application which was in its inception state. I also used REST api's and databases like Room(SQLite) and Postgre, I followed MVVM model with concepts like databinding to make the app more organized. The experience while working in United States really gave me opportunity for myself to gain experience with advance and agile environment.
+                  Working as a Masters Student at such a growing company with awesome people really gave me an exposure to enhance myself. I worked on Android development here contributing to an application which was in its inception state gave me a chance to understand its life cycle. I also worked with REST api's and databases like Room(SQLite) and Postgre, I followed MVVM model with concepts like databinding to make the app more organized. The experience while working in United States really gave me an opportunity to gain experience with advance and agile environment.
                 </Typography>
             </Box>
             </Box>

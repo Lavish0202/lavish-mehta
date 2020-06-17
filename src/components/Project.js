@@ -22,7 +22,7 @@ const useStyle=makeStyles({
     },
     cardContainer:{
         maxWidth:345,
-        margin:"5rem auto"
+        margin:"3rem auto"
     }
 })
 
@@ -47,7 +47,7 @@ export default function Project() {
                                 Twitter Simulator
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                A typical distributed system implemetation into the architecture of a system similar to a twitter engine. The project was in Elixir(Erlang) used functional programming and with phoenix framework for front end design. The simulator supported the functionality like signin user, making him tweet, retweet, follow someone, see his followers and also use given hashtags and mentions.
+                                A typical distributed system client server architecture with thousands of client communicating with a single server through web sockets. The project was in Elixir(Erlang) using functional programming and with phoenix framework for front end design. The simulator supported the functionality like sign-in user, sending live tweet, retweet, follow someone, see and add followers and also use given hashtags and mentions in tweet. 
                             </Typography>
                         </CardContent>
                     </CardActionArea>

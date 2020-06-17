@@ -3,6 +3,8 @@ import Navbar from './Navbar'
 import Header from './Header'
 import Particles from 'react-particles-js';
 import {makeStyles} from '@material-ui/core/styles'
+import Project from './Project';
+    import Resume from './Resume';
 
 const useStyle=makeStyles({
 ParticleContainer:{
@@ -57,6 +59,9 @@ const Home = () => {
         }
         }}/>
         </div>
+        
+        
+
     )
 }
 

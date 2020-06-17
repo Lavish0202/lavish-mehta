@@ -50,9 +50,29 @@ export default function Header() {
             <Typed  strings={["Android developer", "Software developer", "Full Stack developer", "Web Developer"]}
              typeSpeed={45} backSpeed={60} loop/>
             </Typography>
-            <Typography className={classes.title} style={{color:"white"}} variant="h5">
-            <Typed  strings={["Masters student enthusiast to be a better software developer. Totally goal and team oriented. Always like to work smart and get my hands dirty with new technologies with new challanges. Looking to work at a place where I get to learn a lot and have nice people to work around."]} 
-            typeSpeed={40}/>
+            <Typography className={classes.title} style={{color:"#bad6d9"}} variant="h7">
+            <Typed  strings={["I am a Masters student on my journey to be a software developer."]} 
+            typeSpeed={30} />
+            </Typography>
+            <br/>
+            <Typography className={classes.title} style={{color:"#bad6d9"}} variant="h7">
+            <Typed  strings={["I am a quick learner, hardworker, cheerful and coding enthusiast"]} 
+            typeSpeed={30} />
+            <br/>
+            </Typography>
+            <Typography className={classes.title} style={{color:"#bad6d9"}} variant="h7">
+            <Typed  strings={["I love playing soccer, cricket, going to trek and listening calm music"]} 
+            typeSpeed={30} />
+            </Typography>
+            <br/>
+            <Typography className={classes.title} style={{color:"#bad6d9"}} variant="h7">
+            <Typed  strings={["Professionally seeking for a company with challanging roles and responsibility"]} 
+            typeSpeed={30}  />
+            </Typography>
+            <br/>
+            <Typography className={classes.title} style={{color:"#bad6d9"}} variant="h7">
+            <Typed  strings={["Open for companies with friendly environment and great work values"]} 
+            typeSpeed={30}  />
             </Typography>
             
         </Box>

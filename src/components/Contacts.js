@@ -4,6 +4,7 @@ import {Box,Grid,Typography,Button, TextField} from '@material-ui/core'
 import SendIcon from '@material-ui/icons/Send'
 import Navbar from './Navbar'
 import * as emailjs from 'emailjs-com'
+import Footer from './Footer'
 
 const useStyle=makeStyles(theme=>({
     form:{
@@ -51,6 +52,7 @@ function sendEmail(e) {
       }, (error) => {
           console.log(error.text);
       });
+    e.target.reset();
   }
 
 const Contacts = () => {
@@ -63,17 +65,19 @@ const Contacts = () => {
                     <Typography variant="h5" style={{color:"#b33319", textAlign:"center", fontWeight:"bold", textTransform:"uppercase"}}>
                         Hiring or any query contact me
                     </Typography>
-                    <InputField fullWidth={true} label="Name" name="user_name" variant="outlined" margin="dense" size="medium" inputProps={{style:{color:"white"}}}/>
+                    <InputField fullWidth={true} label="Name" name="user_name" variant="outlined" margin="dense" required="true" size="medium" inputProps={{style:{color:"white"}}}/>
                     <br />
-                    <InputField fullWidth={true} label="Email" name="user_email" variant="outlined"  margin="dense" size="medium" inputProps={{style:{color:"white"}}}/>
+                    <InputField fullWidth={true} label="Email" name="user_email" variant="outlined"  margin="dense" required="true" size="medium" inputProps={{style:{color:"white"}}}/>
                     <br />
-                    <InputField fullWidth={true} label="Company" name="company" variant="outlined"  margin="dense" size="medium" inputProps={{style:{color:"white"}}}/>
+                    <InputField fullWidth={true} label="Company" name="company" variant="outlined" required="true" margin="dense" size="medium" inputProps={{style:{color:"white"}}}/>
                     <br />
-                    <InputField fullWidth={true} label="Message" name="message" variant="outlined"  margin="dense" size="medium" inputProps={{style:{color:"white"}}}/>
+                    <InputField fullWidth={true} label="Message" name="message" variant="outlined" required="true" margin="dense" size="medium" inputProps={{style:{color:"white",height:"80px"}}}/>
                     <br />
                     <Button type="submit" variant="outlined" className={classes.button} fullWidth={true} endIcon={<SendIcon/>}>
                         Contact Me
                     </Button>
+                    <br /> <br/>
+                    <Footer/>
                 </Box>   
             </Grid> 
         </Box>
