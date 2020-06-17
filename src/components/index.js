@@ -17,7 +17,7 @@ const Home = () => {
     const classes= useStyle();
     return (
         <div>
-        <Navbar/> 
+        
         <Header/>
         <Particles canvasClassName={classes.ParticleContainer}
         params={{

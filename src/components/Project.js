@@ -31,7 +31,7 @@ export default function Project() {
     const classes=useStyle();
     return (
         <Box component="div" className={classes.mainContainer}>
-          <Navbar/>  
+          
           <Grid container justify="center" >
               <Grid item xs={12} sm={8} md={6} >
                 <Card className={classes.cardContainer}>

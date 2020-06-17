@@ -59,7 +59,7 @@ const Contacts = () => {
     const classes= useStyle();
     return (
         <Box component="div" style={{background:"#172630", height:"100vh"}}>
-            <Navbar/>
+            
            <Grid container justify="center">
                 <Box component="form" className={classes.form} onSubmit={sendEmail}>
                     <Typography variant="h5" style={{color:"#b33319", textAlign:"center", fontWeight:"bold", textTransform:"uppercase"}}>

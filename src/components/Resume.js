@@ -116,7 +116,7 @@ export default function Resume() {
     const classes=useStyle();
     return (
         <>
-           <Navbar/>
+           
            <Box component= "header" className={classes.mainContainer} >
             <Typography variant="h4" align ="center" className={classes.heading}>
                 TimeLine
