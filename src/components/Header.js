@@ -43,7 +43,7 @@ export default function Header() {
 
             </Grid>
             <Typography className={classes.title} variant="h4">
-            <Typed  strings={["My name is : Lavish Mehta"]} typeSpeed={55}/>
+            <Typed  strings={["Lavish Mehta"]} typeSpeed={55}/>
             </Typography>
             <br/>
             <Typography className={classes.subtitle} variant="h5">
